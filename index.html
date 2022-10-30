@@ -30,7 +30,7 @@
                         </a>
                     </div>
                     <a><span>Eng</span></a>
-                    <button><img src="img/search.svg" alt="Поиск" width="18" height="18"></button>
+                    <button class="search"><img src="img/search.svg" alt="Поиск" width="18" height="18"></button>
                 </div>
             </div>
             <nav class="menu">
@@ -50,6 +50,23 @@
                 <a href="#contacts"><p>Контакты</p></a>
             </nav>
         </header>
+
+
+<!--        <div class="swiper brand-swipper">-->
+<!--            <div class="swiper-wrapper">-->
+<!--                <div class="slider-content">-->
+<!--                    <img src="./img/POLAIR-GROUP.png" alt="Полаир Групп" width="104" height="34">-->
+<!--                    <p>Лидер в производстве профессионального оборудования для торговли, общественного питания и кухни</p>-->
+<!--                </div>-->
+<!--                <div class="slider-content">-->
+<!--                    <img src="./img/Carboma.png" alt="Карбома" width="159" height="22">-->
+<!--                    <p>Витрины для кондитерских, экспресс кофеен, гастробаров и продуктовых магазинов</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="swiper-pagination"></div>-->
+<!--        </div>-->
+
+
         <section class="slider container-fluid">
             <div class="image-slider swiper-container container">
                 <div class="swiper-wrapper container">
@@ -149,7 +166,7 @@
             </div>
         </section>
         <section class="products container">
-            <div class="products_header">
+            <div class="products-header">
                 <h2 class="description__text__title" id="products">Продукция</h2>
                 <a class="arrow-link">
                     <p>Перейти в каталог</p>
@@ -158,7 +175,7 @@
             </div>
             <div class="products__list">
                 <ul>
-                    <li><a>Решения для<br>Dark Store</a></li>
+                    <li><a>Решения для <br>Dark Store</a></li>
                     <li><a>Шкафы холодильные</a></li>
                     <li><a>Шоковая заморозка</a></li>
                     <li><a>Шкафы для вызревания</a></li>
@@ -166,7 +183,7 @@
                 <ul>
                     <li><a>Шкафы медицинские</a></li>
                     <li><a>Оборудование для пекарен</a></li>
-                    <li><a>Барные столы<br>и шкафы</a></li>
+                    <li><a>Барные столы <br>и шкафы</a></li>
                     <li><a>Столы холодильные</a></li>
                 </ul>
                 <ul>
@@ -187,7 +204,7 @@
                 <h3>Компания Polair™ — крупнейший российский производитель профессионального холодильного оборудования с широким ассортиментом и покупателями более чем в 20 странах.</h3>
                 <ul>
                     <li class="icon turnover">
-                        <h2>>200 <span>млн $</span></h2>
+                        <h2>>200<span>млн $</span></h2>
                         <p>годовой оборот группы</p>
                     </li>
                     <li class="icon number">
@@ -195,7 +212,7 @@
                         <p>численность сотрудников</p>
                     </li>
                     <li class="icon area">
-                        <h2>~180 <span>тыс м<sup>2</sup></span></h2>
+                        <h2>~180<span>тыс м<sup>2</sup></span></h2>
                         <p>производственные площади</p>
                     </li>
                     <li class="icon countries">
@@ -292,7 +309,7 @@
             <h2 class="description__text__title" id="buy">Наши бренды</h2>
             <ul>
                 <li class="brands__brand-card">
-                    <img src="./img/Polair-group.png" alt="Полаир Групп" width="104" height="34">
+                    <img src="./img/POLAIR-GROUP.png" alt="Полаир Групп" width="104" height="34">
                     <p>Лидер в производстве профессионального оборудования для торговли, общественного питания и кухни</p>
                 </li>
                 <li class="brands__brand-card">
@@ -376,34 +393,34 @@
         </section>
         <footer class="container-fluid">
             <div class="footer container">
-                <div class="footer__logo">
-                    <a href="index.html"><img src="./img/footer-logo.png" alt="Полаир" width="200" height="32"></a>
-                    <p>© АО «Полаир-Недвижимость» 2022</p>
-                    <div class="footer__logo__links">
-                        <a><p>Сделано в <span>CULT</span></p></a>
-                        <a><p>Политика конфиденциальности</p></a>
-                        <a><p>Карта сайта</p></a>
-                    </div>
-                </div>
                 <div class="footer__contacts">
-                    <div class="footer__contacts_social">
-                        <div class="footer__contacts__social__phone">
+                    <a href="index.html"><img src="./img/footer-logo.png" alt="Полаир" width="200" height="32"></a>
+                    <div class="footer__contacts__social">
+                        <div>
                             <a class="section-title" href="tel:+74959376407" id="contacts">+7 (495) 937-64-07</a>
                             <p>многоканальный</p>
                         </div>
-                        <ul class="footer__contacts__social__icons" id="media">
+                        <ul id="media">
                             <li><a><img src="./img/VK.svg" alt="ВК" width="24" height="24"></a></li>
                             <li><a><img src="./img/telegram.svg" alt="ютуб" width="24" height="24"></a></li>
                             <li><a><img src="./img/youtube.svg" alt="телеграм" width="24" height="24"></a></li>
                             <li><a><img src="./img/pinterest.svg" alt="пинтерест" width="24" height="24"></a></li>
                         </ul>
                     </div>
-                    <div class="footer__contacts__address">
-                        <p>119334, город Москва, Ленинский проспект, дом 37, корпус 1, помещение 2-5, этаж 4</p>
-                        <div class="footer__contacts__other">
-                            <p>При использовании материалов сайта ссылка обязательна.</p>
-                            <p>Данный интернет-сайт носит исключительно информационный характер, и информация, размещённая на нём, не является публичной офертой, определяемой положениями ст. 437 ГК РФ.</p>
-                        </div>
+                </div>
+                <div class="footer__address">
+                    <p>© АО «Полаир-Недвижимость» 2022</p>
+                    <p>119334, город Москва, Ленинский проспект, дом 37, корпус 1, помещение 2-5, этаж 4</p>
+                </div>
+                <div class="footer__other">
+                    <div class="footer__other__links">
+                        <a><p>Сделано в <span>CULT</span></p></a>
+                        <a><p>Политика конфиденциальности</p></a>
+                        <a><p>Карта сайта</p></a>
+                    </div>
+                    <div class="footer__other__info">
+                        <p>При использовании материалов сайта ссылка обязательна.</p>
+                        <p>Данный интернет-сайт носит исключительно информационный характер, и информация, размещённая на нём, не является публичной офертой, определяемой положениями ст. 437 ГК РФ.</p>
                     </div>
                 </div>
             </div>
