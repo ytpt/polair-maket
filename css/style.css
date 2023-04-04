@@ -589,10 +589,7 @@ ul {
 
 .catalog__card {
     max-width: 472px;
-    margin-top: 160px;
-    margin-bottom: 48px;
-    margin-left: 120px;
-    text-align: left;
+    margin: 160px auto;
     background: #F2F6FB;
     border-radius: 2px;
     padding: 40px;
